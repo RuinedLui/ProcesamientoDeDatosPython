@@ -11,7 +11,7 @@ with open("dataset_10000_personas.csv", 'r', encoding="utf-8") as archivo:
 cantidad_personas = len(personas)
 total_registros = cantidad_personas
 
-# Estructura de diccionarios anidados (Requerida específicamente por Edwin)
+# Estructura de diccionarios anidados
 lista_personas = []
 for fila in personas:
     estudiante_encuestado = {
